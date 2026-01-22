@@ -42,6 +42,7 @@ from app.user_profile import get_or_create_profile
 import traceback
 import re
 import os
+from app.keep_alive import keep_alive
 import json
 
 # ===============================
@@ -555,4 +556,5 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
+    keep_alive()
     main()
