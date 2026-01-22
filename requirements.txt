@@ -1,0 +1,6 @@
+python-telegram-bot==21.6
+langchain==0.1.13
+langchain-groq==0.1.0
+python-dotenv
+tavily-python
+reportlab
